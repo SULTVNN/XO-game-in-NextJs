@@ -1,3 +1,4 @@
+
 .main {
   display: flex;
   flex-direction: column;
@@ -106,6 +107,28 @@
 
 .logo {
   position: relative;
+}
+.gameboard{
+  width: 502px;
+  height: 503px;
+  border: solid black 1px;
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.el{
+  border: solid black 1px;
+  width: calc(500px/3);
+  height: calc(500px/3);
+  box-sizing:border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.turn{
+  font-size: 25px;
+  color: rgb(255, 0, 0);
 }
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {

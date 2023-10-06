@@ -105,3 +105,14 @@ a {
     color-scheme: dark;
   }
 }
+
+.circle{
+  color: rgb(98, 0, 255);
+  font-size: 150px;
+  font-weight: 900;
+}
+.cross{
+  color: rgb(255, 0, 0);
+  font-size: 150px;
+  font-weight: 900;
+}
